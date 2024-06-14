@@ -33,3 +33,22 @@ Before you get started, ensure you have the following installed:
    cd NewsApp
    flutter pub get
    flutter run
+## API Integration 
+API Integration
+
+This app fetches news from a third-party API. Follow these steps to set up API integration:
+
+   Get an API Key:
+        Sign up on the news API provider's website (e.g., NewsAPI).
+        Obtain your API key after signing up.
+
+   Update Configuration:
+        Open the configuration file (lib/config.dart) in your project.
+        Replace YOUR_API_KEY with your actual API key:
+
+
+   const String apiKey = 'YOUR_API_KEY';
+
+Fetch Data:
+
+   The API key is used in network requests to fetch news data. Ensure your app makes HTTP requests to the news API endpoints using this key.
