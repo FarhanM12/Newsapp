@@ -10,17 +10,15 @@ Welcome to the NewsApp project! This Flutter-based application provides users wi
 - **Save Articles**: Save news articles to read them later at your convenience.
 
 ## Screenshots
-### Home Screen (Light Mode)
-![Home Screen Light](screenshots/home_screen_light.png)
+### (Get Started Page)
+![Home Screen Light](screenshots/getstarted.jpeg)
 
-### Home Screen (Dark Mode)
-![Home Screen Dark](screenshots/home_screen_dark.png)
+### News Screen (Light Mode)
+![Home Screen Dark](screenshots/newslight.jpeg)
 
-### News Article
-![News Article](screenshots/news_article.png)
+### News Screen(Dark Mode) 
+![News Article](screenshots/newsdark.jpeg)
 
-### Saved Articles
-![Saved Articles](screenshots/saved_articles.png)
 
 ## Prerequisites
 Before you get started, ensure you have the following installed:
