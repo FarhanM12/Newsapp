@@ -31,3 +31,5 @@ Before you get started, ensure you have the following installed:
    ```sh
    git clone https://github.com/your-username/NewsApp.git
    cd NewsApp
+   flutter pub get
+   flutter run
