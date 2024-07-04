@@ -10,17 +10,15 @@ Welcome to the NewsApp project! This Flutter-based application provides users wi
 - **Save Articles**: Save news articles to read them later at your convenience.
 
 ## Screenshots
-### Home Screen (Light Mode)
-![Home Screen Light](screenshots/home_screen_light.png)
+### (Get Started Page)
+![Home Screen Light](screenshots/getstarted.jpeg)
 
-### Home Screen (Dark Mode)
-![Home Screen Dark](screenshots/home_screen_dark.png)
+### News Screen (Light Mode)
+![Home Screen Dark](screenshots/newslight.jpeg)
 
-### News Article
-![News Article](screenshots/news_article.png)
+### News Screen(Dark Mode) 
+![News Article](screenshots/newsdark.jpeg)
 
-### Saved Articles
-![Saved Articles](screenshots/saved_articles.png)
 
 ## Prerequisites
 Before you get started, ensure you have the following installed:
@@ -33,3 +31,24 @@ Before you get started, ensure you have the following installed:
    ```sh
    git clone https://github.com/your-username/NewsApp.git
    cd NewsApp
+   flutter pub get
+   flutter run
+## API Integration 
+API Integration
+
+This app fetches news from a third-party API. Follow these steps to set up API integration:
+
+   Get an API Key:
+        Sign up on the news API provider's website (e.g., NewsAPI).
+        Obtain your API key after signing up.
+
+   Update Configuration:
+        Open the configuration file (lib/config.dart) in your project.
+        Replace YOUR_API_KEY with your actual API key:
+
+
+   const String apiKey = 'YOUR_API_KEY';
+
+Fetch Data:
+
+   The API key is used in network requests to fetch news data. Ensure your app makes HTTP requests to the news API endpoints using this key.
